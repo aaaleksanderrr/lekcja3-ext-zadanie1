@@ -1,28 +1,27 @@
-.div1 {
-  width: 200px;
-  height: 200px;
+body {
+  font-size: 0;
+}
+
+.div-left {
   background-color: red;
-  display: inline-block;
-  float: left;
 }
 
-.div2 {
-  width: 200px;
-  height: 200px;
+.div-center {
   background-color: yellow;
-  display: inline-block;
-  float: left;
 }
 
-.div3 {
-  width: 200px;
-  height: 200px;
+.div-right {
   background-color: blue;
-  display: inline-block;
 }
 
-.div4 {
+.div-wide {
   width: 600px;
   height: 200px;
   background-color: green;
+}
+
+.inlineBlock-square {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
 }
